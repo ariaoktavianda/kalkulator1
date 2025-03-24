@@ -29,7 +29,7 @@ function handleSymbol(symbol) {
       runningTotal = 0;
       break;
     case '←':
-      if ([1, 2, 3, 4, 5, 6, 7, 8, 9].includes(buffer.length)) {
+      if ((buffer.length === 1, 2, 3, 4, 5, 6, 7, 8, 9)) {
         buffer = '0';
       } else {
         buffer = buffer.substring(0, buffer.length - 1);
